@@ -1,0 +1,357 @@
+[    0.000458] __bionic_open_tzdata: couldn't find any tzdata when looking for Asia/Jakarta!
+[    0.000580] Starting recovery (pid 160) on Mon Mar 22 23:21:33 2021
+[    0.000610] locale is [in_ID]
+[    0.000641] stage is []
+[    0.000641] reason is [MasterClearConfirm]
+[    0.003174] cannot find/open a drm device: No such file or directory
+[    0.003296] fb0 reports (possibly inaccurate):
+[    0.003296]   vi.bits_per_pixel = 32
+[    0.003326]   vi.red.offset   =  16   .length =   8
+[    0.003326]   vi.green.offset =   8   .length =   8
+[    0.003357]   vi.blue.offset  =   0   .length =   8
+[    0.008606] framebuffer: 0 (480 x 960)
+[    0.008636] ioctl(): blank: Invalid argument
+[    0.008636] ioctl(): blank: Invalid argument
+[    0.021606]           erasing_text: in (109 x 29 @ 1740)
+[    0.028992]        no_command_text: in (172 x 29 @ 1740)
+[    0.035004]             error_text: in (48 x 29 @ 1740)
+[    0.738892]        installing_text: in (281 x 29 @ 1740)
+[    0.753937] Command: "recovery" "--wipe_data" "--reason=MasterClearConfirm" "--locale=in_ID" "--send_intent={"at_flag_c":12422,"at_count_b":50,"at_count_u":28672,"at_count_r":0,"at_time_j":264327219,"at_time_r":0,"at_extend":"7a18db6495ebf51ff728cebf2da9aef5","at_m2":""}"
+[    0.753998]
+[    0.753998] persist.qiku.log.level=YWW4
+[    0.754150] persist.qiku.cmcc.mode=0x00
+[    0.754150] persist.qiku.cmcc.brand=0x00
+[    0.754181] persist.qiku.comm.runmode=0000
+[    0.754181] persist.qiku.oldman.mode=0
+[    0.754211] persist.qiku.ctstest=1
+[    0.754211] persist.qiku.children.mode=0
+[    0.754211] persist.qiku.perf_opt=1
+[    0.754242] persist.qiku.operators.mode=0
+[    0.754242] persist.qiku.operators.isabroad=1
+[    0.754242] persist.qiku.defaultmode=0
+[    0.754272] persist.qiku.fingerprint=0
+[    0.754364] ro.dalvik.vm.native.bridge=0
+[    0.754395] dalvik.vm.isa.arm.variant=cortex-a7
+[    0.754395] dalvik.vm.isa.arm.features=default
+[    0.754425] dalvik.vm.usejit=true
+[    0.754425] dalvik.vm.heapsize=256m
+[    0.754425] dalvik.vm.dex2oat-Xms=64m
+[    0.754456] dalvik.vm.dex2oat-Xmx=512m
+[    0.754456] dalvik.vm.heapmaxfree=8m
+[    0.754456] dalvik.vm.heapminfree=512k
+[    0.754486] dalvik.vm.heapstartsize=8m
+[    0.754486] dalvik.vm.appimageformat=lz4
+[    0.754517] dalvik.vm.usejitprofiles=true
+[    0.754517] dalvik.vm.heapgrowthlimit=96m
+[    0.754517] dalvik.vm.stack-trace-file=/data/anr/traces.txt
+[    0.754517] dalvik.vm.image-dex2oat-Xms=64m
+[    0.754547] dalvik.vm.image-dex2oat-Xmx=64m
+[    0.754547] dalvik.vm.heaptargetutilization=0.75
+[    0.754578] ro.config.low_ram=false
+[    0.754578] ro.config.smstone=Notification.ogg
+[    0.754578] ro.config.ringtone=360_Tone.ogg
+[    0.754608] ro.config.smstone_2=Notification.ogg
+[    0.754608] ro.config.ringtone_2=360_Tone.ogg
+[    0.754608] ro.config.alarm_alert=Feeling.ogg
+[    0.754639] ro.config.agenda_alert=Schedule.ogg
+[    0.754639] ro.config.notification_sound=Notification.ogg
+[    0.754730] ro.build.fingerprint=EVERCOSS/EVERCOSS_U60/EVERCOSS_U60:7.0/NRD90M/user11171823:user/release-keys
+[    0.754730] pm.dexopt.boot=verify-profile
+[    0.754761] pm.dexopt.ab-ota=speed-profile
+[    0.754761] pm.dexopt.install=interpret-only
+[    0.754791] pm.dexopt.core-app=speed
+[    0.754791] pm.dexopt.bg-dexopt=speed-profile
+[    0.754791] pm.dexopt.first-boot=interpret-only
+[    0.754822] pm.dexopt.shared-apk=speed
+[    0.754822] pm.dexopt.nsys-library=speed
+[    0.754852] pm.dexopt.forced-dexopt=speed
+[    0.754852] ro.sf.lcd_width=54
+[    0.754852] ro.sf.lcd_height=96
+[    0.754883] ro.sf.lcd_density=240
+[    0.754883] ro.adb.secure=1
+[    0.754883] ro.com.google.gmsversion=7.0_r11
+[    0.754913] ro.com.google.clientidbase=android-evercoss
+[    0.754913] ro.com.google.clientidbase.am=android-evercoss
+[    0.754913] ro.com.google.clientidbase.ms=android-evercoss
+[    0.754944] ro.com.google.clientidbase.yt=android-evercoss
+[    0.754944] ro.com.google.clientidbase.gmm=android-evercoss
+[    0.754944] ro.com.android.dateformat=dd-MM-yyyy
+[    0.754974] ro.com.android.mobiledata=false
+[    0.754974] ro.com.android.dataroaming=true
+[    0.755005] ro.frp.pst=/dev/block/platform/sdio_emmc/by-name/persist
+[    0.755005] ro.wcn.gpschip=ge2
+[    0.755035] ro.wcn.hardware.product=marlin
+[    0.755035] ro.boot.2mem=1024
+[    0.755035] ro.boot.3mem=8192
+[    0.755066] ro.boot.bflg=8db3ec0a4edf919c
+[    0.755066] ro.boot.mode=recovery
+[    0.755066] ro.boot.cpuid=82079200898e420c
+[    0.755096] ro.boot.efuse=yes
+[    0.755096] ro.boot.flash.locked=1
+[    0.755096] ro.boot.hardware=sp9832a_2h11
+[    0.755127] ro.boot.serialno=20171118082536
+[    0.755127] ro.boot.verifiedbootstate=green
+[    0.755127] ro.fota.app=5
+[    0.755127] ro.fota.oem=Sprd9832_7.0
+[    0.755157] ro.fota.type=phone
+[    0.755157] ro.fota.token=a42e45927e8210def34b83a3ef65477b
+[    0.755157] ro.fota.device=U60
+[    0.755188] ro.fota.version=7.0.001.P1.171213.WW6_WW6_FS26956B_OE
+[    0.755188] ro.fota.platform=Sprd9832_7.0
+[    0.755188] ro.msms.phone_count=2
+[    0.755219] ro.qiku.bt.voicerecord=0
+[    0.755219] ro.qiku.app.safetydialog=0
+[    0.755249] ro.qiku.gms=1
+[    0.755249] ro.qiku.lucky.money.alert=0
+[    0.755249] ro.qiku.sales.channel=2
+[    0.755280] ro.qiku.oldman.phone=0
+[    0.755280] ro.qiku.display.360logo=0
+[    0.755280] ro.qiku.hotknot=0
+[    0.755280] ro.qiku.product.type=LE
+[    0.755310] ro.qiku.version.tag=LC
+[    0.755310] ro.qiku.version.date=171213
+[    0.755310] ro.qiku.version.kernel=3.18.0.P1.171213.NRD90M
+[    0.755341] ro.qiku.version.release=7.0.001.P1.171213.WW6_WW6_FS26956B_OE
+[    0.755341] ro.qiku.version.hardware=P1
+[    0.755341] ro.qiku.version.software=7.0.001.P1.171213.WW6_WW6_FS26956B_OE
+[    0.755371] ro.qiku.xlocker.capture=1
+[    0.755371] ro.qiku.privacyspace.support=0
+[    0.755371] ro.wifi.channels=
+[    0.755402] ro.allow.mock.location=0
+[    0.755402] ro.antos.model=wt-6-FS269-TRX-0-EVERCOSS-U60
+[    0.755402] ro.board.platform=sc8830
+[    0.755432] ro.build.id=NRD90M
+[    0.755432] ro.build.ota.type=stable
+[    0.755432] ro.build.date=Wed Dec 13 15:08:19 CST 2017
+[    0.755463] ro.build.date.utc=1513148899
+[    0.755463] ro.build.host=releasecew
+[    0.755463] ro.build.tags=release-keys
+[    0.755463] ro.build.type=user
+[    0.755493] ro.build.user=releasecew
+[    0.755493] ro.build.flavor=sp9832a_2h11_4mvoltesea_tee-user
+[    0.755493] ro.build.nv_prj=FS269V55_R_SHARE_W18_L3_8_EVERCOSS
+[    0.755524] ro.build.display.id=EVERCOSS_U60_V12_7.0_13122017
+[    0.755524] ro.build.product=EVERCOSS_U60
+[    0.755524] ro.build.version.sdk=24
+[    0.755554] ro.build.version.base_os=
+[    0.755554] ro.build.version.release=7.0
+[    0.755585] ro.build.version.codename=REL
+[    0.755585] ro.build.version.incremental=eng.releas.20171213.150819
+[    0.755585] ro.build.version.preview_sdk=0
+[    0.755615] ro.build.version.all_codenames=REL
+[    0.755615] ro.build.version.security_patch=2017-11-05
+[    0.755615] ro.build.uiversion=360UI:V2.0
+[    0.755646] ro.build.description=sp9832a_2h11_4mvoltesea_tee-user 7.0 NRD90M eng.releas.20171213.150819 release-keys
+[    0.755646] ro.build.realversion=FS269_TRX_L5701_32A_360OS_EVERCOSS_L19144_LSN5_20171213_QHD_VOLTE_FS269V55_R_SHARE_W18_L3_
+[    0.755646] ro.build.realversion2=8_EVERCOSS_ALS_FP_150749
+[    0.755676] ro.build.characteristics=default
+[    0.755676] ro.modem.l.id=0
+[    0.755676] ro.modem.l.nv=/dev/spipe_lte1
+[    0.755676] ro.modem.l.dev=/proc/cptl/
+[    0.755707] ro.modem.l.eth=seth_lte
+[    0.755707] ro.modem.l.log=/dev/slog_lte
+[    0.755707] ro.modem.l.snd=1
+[    0.755737] ro.modem.l.tty=/dev/stty_lte
+[    0.755737] ro.modem.l.vbc=/dev/spipe_lte6
+[    0.755737] ro.modem.l.diag=/dev/sdiag_lte
+[    0.755768] ro.modem.l.loop=/dev/spipe_lte0
+[    0.755768] ro.modem.l.count=2
+[    0.755768] ro.modem.l.assert=/dev/spipe_lte2
+[    0.755798] ro.modem.l.fixnv_size=0x6C000
+[    0.755798] ro.modem.l.runnv_size=0x90000
+[    0.755798] ro.modem.t.id=0
+[    0.755829] ro.modem.t.nv=/dev/spipe_gge1
+[    0.755829] ro.modem.t.dev=/proc/cpgge/
+[    0.755829] ro.modem.t.eth=seth_gge
+[    0.755859] ro.modem.t.log=/dev/slog_gge
+[    0.755859] ro.modem.t.snd=1
+[    0.755859] ro.modem.t.tty=/dev/stty_gge0
+[    0.755890] ro.modem.t.vbc=/dev/spipe_gge6
+[    0.755890] ro.modem.t.diag=/dev/slog_gge
+[    0.755920] ro.modem.t.loop=/dev/spipe_gge0
+[    0.755920] ro.modem.t.assert=/dev/spipe_gge2
+[    0.755920] ro.modem.t.fixnv_size=0x20000
+[    0.755951] ro.modem.t.runnv_size=0x40000
+[    0.755951] ro.modem.lf.id=0
+[    0.755951] ro.modem.lf.nv=/dev/spipe_lte1
+[    0.755951] ro.modem.lf.dev=/proc/cptl/
+[    0.755981] ro.modem.lf.eth=seth_lte
+[    0.755981] ro.modem.lf.log=/dev/slog_lte
+[    0.755981] ro.modem.lf.snd=1
+[    0.756012] ro.modem.lf.tty=/dev/stty_lte
+[    0.756012] ro.modem.lf.vbc=/dev/spipe_lte6
+[    0.756012] ro.modem.lf.diag=/dev/sdiag_lte
+[    0.756042] ro.modem.lf.loop=/dev/spipe_lte0
+[    0.756042] ro.modem.lf.assert=/dev/spipe_lte2
+[    0.756042] ro.modem.lf.fixnv_size=0x40000
+[    0.756073] ro.modem.lf.runnv_size=0x60000
+[    0.756073] ro.modem.tl.id=0
+[    0.756073] ro.modem.tl.nv=/dev/spipe_lte1
+[    0.756104] ro.modem.tl.dev=/proc/cptl/
+[    0.756104] ro.modem.tl.eth=seth_lte
+[    0.756104] ro.modem.tl.log=/dev/slog_lte
+[    0.756134] ro.modem.tl.snd=1
+[    0.756134] ro.modem.tl.tty=/dev/stty_lte
+[    0.756165] ro.modem.tl.vbc=/dev/spipe_lte6
+[    0.756165] ro.modem.tl.diag=/dev/sdiag_lte
+[    0.756165] ro.modem.tl.loop=/dev/spipe_lte0
+[    0.756165] ro.modem.tl.assert=/dev/spipe_lte2
+[    0.756195] ro.modem.tl.fixnv_size=0x40000
+[    0.756195] ro.modem.tl.runnv_size=0x60000
+[    0.756195] ro.modem.wcn.id=1
+[    0.756226] ro.modem.wcn.tty=/dev/stty_wcn
+[    0.756226] ro.modem.wcn.diag=/dev/slog_wcn
+[    0.756226] ro.modem.wcn.count=1
+[    0.756256] ro.modem.wcn.enable=1
+[    0.756256] ro.modem.gnss.diag=/dev/slog_gnss
+[    0.756256] ro.modem.external.enable=0
+[    0.756287] ro.radio.modemtype=l
+[    0.756287] ro.custom.build.version=EVERCOSS_U60_V12_7.0_13122017
+[    0.756287] ro.secure=1
+[    0.756317] ro.vendor.name=EVERCOSS
+[    0.756317] ro.vendor.channel.number=WW6_WW6_FS26956B_OE
+[    0.756317] ro.zygote=zygote32
+[    0.756348] ro.carrier=unknown
+[    0.756348] ro.digital.fm.support=1
+[    0.756348] ro.hotspot.enabled=1
+[    0.756378] ro.product.cpu.abi=armeabi-v7a
+[    0.756378] ro.product.cpu.abi2=armeabi
+[    0.756378] ro.product.cpu.abilist=armeabi-v7a,armeabi
+[    0.756409] ro.product.cpu.abilist32=armeabi-v7a,armeabi
+[    0.756409] ro.product.cpu.abilist64=
+[    0.756409] ro.product.name=EVERCOSS_U60
+[    0.756409] ro.product.board=sp9832a_2h11_volte
+[    0.756439] ro.product.brand=EVERCOSS
+[    0.756439] ro.product.model=U60
+[    0.756439] ro.product.modem.mode=GSM,EDGE,TD-SCDMA,WCDMA,TD-LTE,FDD-LTE
+[    0.756470] ro.product.device=EVERCOSS_U60
+[    0.756470] ro.product.locale=en-US
+[    0.756470] ro.product.tp_ges=true
+[    0.756500] ro.product.hardware=SP9832A-2_V1.1.0(4M)
+[    0.756500] ro.product.sub_flash=true
+[    0.756500] ro.product.manufacturer=EVERCOSS
+[    0.756531] ro.product.partitionpath=/dev/block/platform/sdio_emmc/by-name/
+[    0.756531] ro.ramsize=1024M
+[    0.756531] ro.simlock.onekey.lock=0
+[    0.756561] ro.simlock.unlock.bynv=0
+[    0.756561] ro.simlock.unlock.autoshow=1
+[    0.756561] ro.storage.flash_type=2
+[    0.756592] ro.storage.install2internal=0
+[    0.756592] ro.baseband=unknown
+[    0.756592] ro.bootmode=recovery
+[    0.756622] ro.hardware=sp9832a_2h11
+[    0.756622] ro.hardware.keystore=trusty
+[    0.756622] ro.opengles.version=131072
+[    0.756622] ro.revision=0
+[    0.756653] ro.serialno=20171118082536
+[    0.756653] ro.bootimage.build.date=Wed Dec 13 15:08:19 CST 2017
+[    0.756653] ro.bootimage.build.date.utc=1513148899
+[    0.756683] ro.bootimage.build.fingerprint=EVERCOSS/EVERCOSS_U60/EVERCOSS_U60:7.0/NRD90M/user11171823:user/release-keys
+[    0.756683] ro.telephony.default_network=9
+[    0.756683] ro.bootloader=unknown
+[    0.756714] ro.debuggable=0
+[    0.756714] ro.setupwizard.mode=OPTIONAL
+[    0.756714] ro.oem_unlock_supported=1
+[    0.756744] drm.service.enabled=true
+[    0.756744] conn.connectivity_change_delay=0
+[    0.756744] init.svc.adbd=running
+[    0.756775] init.svc.healthd=running
+[    0.756775] init.svc.ueventd=running
+[    0.756775] init.svc.recovery=running
+[    0.756805] qemu.hw.mainkeys=1
+[    0.756805] rild.libpath=/system/lib/libsprd-ril.so
+[    0.756836] camera.disable_zsl_mode=1
+[    0.756836] persist.ini.connectivity.prodnv=0
+[    0.756836] persist.modem.l.cs=0
+[    0.756836] persist.modem.l.ps=1
+[    0.756866] persist.modem.l.nvp=l_
+[    0.756866] persist.modem.l.rsim=1
+[    0.756866] persist.modem.l.enable=1
+[    0.756897] persist.modem.t.nvp=g_
+[    0.756897] persist.modem.t.enable=0
+[    0.756897] persist.modem.lf.nvp=wl_
+[    0.756927] persist.modem.lf.enable=0
+[    0.756927] persist.modem.tl.nvp=tl_
+[    0.756927] persist.modem.tl.enable=0
+[    0.756958] persist.ttydev=ttyVUART0
+[    0.756958] persist.support.oplpnn=true
+[    0.756958] persist.support.cphsfirst=false
+[    0.756989] keyguard.no_require_sim=true
+[    0.756989] use_brcm_fm_chip=true
+[    0.756989] persist.qiku.adb.input.type=0
+[    0.757019] security.perf_harden=1
+[    0.757019] debug.hwui.use_partial_updates=false
+[    0.757019] debug.hwui.render_dirty_regions=false
+[    0.757050] debug.atrace.tags.enableflags=0
+[    0.757050] sys.usb.ffs.ready=1
+[    0.757050] net.bt.name=Android
+[    0.757080] net.change=net.bt.name
+[    0.757080] sys.usb.gser.count=8
+[    0.757080] sys.usb.state=adb,vser,gser
+[    0.757111] persist.sys.dm=0
+[    0.757111] persist.sys.st.value=0
+[    0.757141] persist.sys.apr.enabled=0
+[    0.757141] persist.sys.apr.testgroup=CSSLAB
+[    0.757141] persist.sys.apr.autoupload=1
+[    0.757172] persist.sys.apr.intervaltime=1
+[    0.757172] persist.sys.cam.gps=true
+[    0.757172] persist.sys.cam.sfv.alter=true
+[    0.757172] persist.sys.cam.hascamkey=false
+[    0.757202] persist.sys.gps=enabled
+[    0.757202] persist.sys.usb.config=ptp
+[    0.757202] persist.sys.csvt=false
+[    0.757233] persist.sys.sprd.wcnreset=1
+[    0.757233] persist.sys.sprd.modemreset=1
+[    0.757263] persist.sys.engpc.disable=1
+[    0.757263] persist.sys.modem.diag=,gser
+[    0.757263] persist.sys.volte.enable=true
+[    0.757263] persist.sys.dalvik.vm.lib.2=libart.so
+[    0.757294] persist.sys.country=US
+[    0.757294] persist.sys.support.vt=true
+[    0.757294] persist.sys.language=en
+[    0.757324] persist.sys.timezone=Asia/Jakarta
+[    0.757324] persist.sys.bsservice.enable=1
+[    0.757324] persist.sys.start_udpdatastall=0
+[    0.757355] persist.service.agps.network=4g
+[    0.757355] ril.sim.phone_ex.start=true
+[    0.757385] persist.msms.phone_count=2
+[    0.757385] persist.msms.phone_default=0
+[    0.757385] persist.radio.modem.config=TL_LF_W_G,G
+[    0.757385] persist.radio.modem.workmode=6,10
+[    0.757416] persist.radio.multisim.config=dsds
+[    0.757416] sys.usb.config=adb,vser,gser
+[    0.757446]
+[    0.757446] Supported API: 3
+[    0.769958]
+[    0.769989] -- Wiping data...
+[    0.821686] Formatting /data...
+[    0.856842] Creating filesystem with parameters:
+[    0.856873]     Size: 536870912
+[    0.856873]     Block size: 4096
+[    0.856903]     Blocks per group: 32768
+[    0.856903]     Inodes per group: 8192
+[    0.856934]     Inode size: 256
+[    0.856934]     Journal blocks: 2048
+[    0.856934]     Label: 
+[    0.856964]     Blocks: 131072
+[    0.856964]     Block groups: 4
+[    0.856995]     Reserved block group size: 31
+[    0.857880] Created filesystem with 11/32768 inodes and 4206/131072 blocks
+[    6.548584] E:/dev/block/platform/sdio_emmc/by-name/cache fs is ext4 
+[    6.561005] Formatting /cache...
+[    6.581879] Creating filesystem with parameters:
+[    6.581940]     Size: 157286400
+[    6.581940]     Block size: 4096
+[    6.581940]     Blocks per group: 32768
+[    6.581970]     Inodes per group: 4800
+[    6.581970]     Inode size: 256
+[    6.582001]     Journal blocks: 1024
+[    6.582001]     Label: 
+[    6.582001]     Blocks: 38400
+[    6.582031]     Block groups: 2
+[    6.582031]     Reserved block group size: 15
+[    6.582550] Created filesystem with 11/9600 inodes and 1665/38400 blocks
+[   11.832916] E:/dev/block/platform/sdio_emmc/by-name/cache fs is ext4 
+[   16.859375] E:/dev/block/platform/sdio_sd/mmcblk1p1 fs is vfat 
+[   16.995026] Data wipe complete.
+[   16.997589] I:Saving locale "in_ID"
